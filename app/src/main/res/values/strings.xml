@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">Scolangua</string>
     <!-- will be used as vocabulary for Phrases -->
+    <string name="app_name_phrase">Phrase</string>
+
+    <!-- will be used as vocabulary for number -->
+    <string name="app_name_number">Number</string>
+
+    <!--will be used as vocabulary for word -->
+    <string name="app_name_word">Word</string>
+
+    <!-- will be used as vocabulary for family -->
+    <string name="app_name_family">Family</string>
+
+    <!--will be used as vocabulary for food -->
+    <string name="app_name_food">Food</string>
+
+    <!--will be used as voabulary for color -->
+    <string name="app_name_color">Color</string>
 </resources>
