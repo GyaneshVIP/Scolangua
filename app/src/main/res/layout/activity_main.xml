@@ -11,20 +11,29 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.workspace.scolangua.MainActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
     <TextView
-        android:id="@+id/numbers"
+        android:id="@+id/family"
         style="@style/CategoryStyle"
         android:background="@color/category_numbers"
         android:text="@string/app_name_family" />
 
     <TextView
-        android:id="@+id/family"
+        android:id="@+id/colors"
         style="@style/CategoryStyle"
         android:background="@color/category_family"
         android:text="@string/app_name_color" />
 
     <TextView
-        android:id="@+id/colors"
+        android:id="@+id/word"
         style="@style/CategoryStyle"
         android:background="@color/category_colors"
         android:text="@string/app_name_word" />
@@ -34,5 +43,18 @@
         style="@style/CategoryStyle"
         android:background="@color/category_phrases"
         android:text="@string/app_name_phrase" />
+
+    <TextView
+        android:id="@+id/food"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="@string/app_name_food" />
+    <TextView
+        android:id="@+id/number"
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="@string/app_name_number" />
+    </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>
